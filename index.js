@@ -1,5 +1,3 @@
-if(process.env.NODE_ENVIRONMENT == 'DEV')
-    require('dotenv/config');
 const { Client } = require('pg');
 const { gerarSenha, codificarEmSHA512 } = require('./gerarSenha');
 // Configuração de conexão com a base. Neste exemplo está sendo utilizado o PostgresSQL
