@@ -1,0 +1,19 @@
+{
+  "name": "livros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
